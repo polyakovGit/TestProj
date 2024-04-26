@@ -1,3 +1,5 @@
-../Core/Src/udp_handler.c:8:6:udp_receive_callback	1
-../Core/Src/udp_handler.c:23:17:udp_create_socket	4
-../Core/Src/udp_handler.c:49:7:udp_send_msg	5
+../Core/Src/udp_handler.c:4:7:udp_send_message	5
+../Core/Src/udp_handler.c:35:6:get_ifconfig	1
+../Core/Src/udp_handler.c:47:6:sed_leds	4
+../Core/Src/udp_handler.c:64:6:udp_receive_message	5
+../Core/Src/udp_handler.c:86:6:udp_create_socket	3

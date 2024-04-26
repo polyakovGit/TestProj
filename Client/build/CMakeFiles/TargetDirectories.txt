@@ -1,0 +1,3 @@
+C:/Users/polyakov/Desktop/Client/build/CMakeFiles/Client.dir
+C:/Users/polyakov/Desktop/Client/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/polyakov/Desktop/Client/build/CMakeFiles/ZERO_CHECK.dir

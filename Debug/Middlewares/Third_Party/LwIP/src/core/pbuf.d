@@ -54,7 +54,18 @@ Middlewares/Third_Party/LwIP/src/core/pbuf.o: \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/ip_addr.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/ip4_addr.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/ip6_addr.h \
- ../Middlewares/Third_Party/LwIP/src/include/lwip/def.h
+ ../Middlewares/Third_Party/LwIP/src/include/lwip/def.h \
+ ../Middlewares/Third_Party/LwIP/src/include/lwip/priv/tcp_priv.h \
+ ../Middlewares/Third_Party/LwIP/src/include/lwip/tcp.h \
+ ../Middlewares/Third_Party/LwIP/src/include/lwip/tcpbase.h \
+ ../Middlewares/Third_Party/LwIP/src/include/lwip/ip.h \
+ ../Middlewares/Third_Party/LwIP/src/include/lwip/ip4.h \
+ ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/ip4.h \
+ ../Middlewares/Third_Party/LwIP/src/include/lwip/ip6.h \
+ ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/ip.h \
+ ../Middlewares/Third_Party/LwIP/src/include/lwip/icmp.h \
+ ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/icmp.h \
+ ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/tcp.h
 ../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h:
 ../LWIP/Target/lwipopts.h:
 ../Core/Inc/main.h:
@@ -111,3 +122,14 @@ Middlewares/Third_Party/LwIP/src/core/pbuf.o: \
 ../Middlewares/Third_Party/LwIP/src/include/lwip/ip4_addr.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/ip6_addr.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/def.h:
+../Middlewares/Third_Party/LwIP/src/include/lwip/priv/tcp_priv.h:
+../Middlewares/Third_Party/LwIP/src/include/lwip/tcp.h:
+../Middlewares/Third_Party/LwIP/src/include/lwip/tcpbase.h:
+../Middlewares/Third_Party/LwIP/src/include/lwip/ip.h:
+../Middlewares/Third_Party/LwIP/src/include/lwip/ip4.h:
+../Middlewares/Third_Party/LwIP/src/include/lwip/prot/ip4.h:
+../Middlewares/Third_Party/LwIP/src/include/lwip/ip6.h:
+../Middlewares/Third_Party/LwIP/src/include/lwip/prot/ip.h:
+../Middlewares/Third_Party/LwIP/src/include/lwip/icmp.h:
+../Middlewares/Third_Party/LwIP/src/include/lwip/prot/icmp.h:
+../Middlewares/Third_Party/LwIP/src/include/lwip/prot/tcp.h:

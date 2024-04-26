@@ -64,7 +64,11 @@ Middlewares/Third_Party/LwIP/src/core/memp.o: \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/ip.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/udp.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/tcp.h \
+ ../Middlewares/Third_Party/LwIP/src/include/lwip/tcpbase.h \
+ ../Middlewares/Third_Party/LwIP/src/include/lwip/icmp.h \
+ ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/icmp.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/priv/tcp_priv.h \
+ ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/tcp.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/altcp.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/ip4_frag.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/netbuf.h \
@@ -149,7 +153,11 @@ Middlewares/Third_Party/LwIP/src/core/memp.o: \
 ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/ip.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/udp.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/tcp.h:
+../Middlewares/Third_Party/LwIP/src/include/lwip/tcpbase.h:
+../Middlewares/Third_Party/LwIP/src/include/lwip/icmp.h:
+../Middlewares/Third_Party/LwIP/src/include/lwip/prot/icmp.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/priv/tcp_priv.h:
+../Middlewares/Third_Party/LwIP/src/include/lwip/prot/tcp.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/altcp.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/ip4_frag.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/netbuf.h:

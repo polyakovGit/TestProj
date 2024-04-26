@@ -1,6 +1,6 @@
 Core/Src/udp_handler.o: ../Core/Src/udp_handler.c \
  ../Core/Inc/udp_handler.h \
- ../Middlewares/Third_Party/LwIP/src/include/lwip/ip4_addr.h \
+ ../Middlewares/Third_Party/LwIP/src/include/lwip/udp.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h \
  ../LWIP/Target/lwipopts.h ../Core/Inc/main.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
@@ -41,13 +41,11 @@ Core/Src/udp_handler.o: ../Core/Src/udp_handler.c \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/arch.h \
  ../Middlewares/Third_Party/LwIP/system/arch/cc.h \
  ../Middlewares/Third_Party/LwIP/system/arch/cpu.h \
- ../Middlewares/Third_Party/LwIP/src/include/lwip/def.h \
- ../Middlewares/Third_Party/LwIP/src/include/lwip/err.h \
- ../Middlewares/Third_Party/LwIP/src/include/lwip/udp.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/pbuf.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/err.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/netif.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/ip_addr.h \
+ ../Middlewares/Third_Party/LwIP/src/include/lwip/def.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/ip4_addr.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/ip6_addr.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/def.h \
@@ -64,7 +62,7 @@ Core/Src/udp_handler.o: ../Core/Src/udp_handler.c \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/ip.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/prot/udp.h
 ../Core/Inc/udp_handler.h:
-../Middlewares/Third_Party/LwIP/src/include/lwip/ip4_addr.h:
+../Middlewares/Third_Party/LwIP/src/include/lwip/udp.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h:
 ../LWIP/Target/lwipopts.h:
 ../Core/Inc/main.h:
@@ -106,13 +104,11 @@ Core/Src/udp_handler.o: ../Core/Src/udp_handler.c \
 ../Middlewares/Third_Party/LwIP/src/include/lwip/arch.h:
 ../Middlewares/Third_Party/LwIP/system/arch/cc.h:
 ../Middlewares/Third_Party/LwIP/system/arch/cpu.h:
-../Middlewares/Third_Party/LwIP/src/include/lwip/def.h:
-../Middlewares/Third_Party/LwIP/src/include/lwip/err.h:
-../Middlewares/Third_Party/LwIP/src/include/lwip/udp.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/pbuf.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/err.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/netif.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/ip_addr.h:
+../Middlewares/Third_Party/LwIP/src/include/lwip/def.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/ip4_addr.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/ip6_addr.h:
 ../Middlewares/Third_Party/LwIP/src/include/lwip/def.h:
