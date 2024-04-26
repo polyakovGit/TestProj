@@ -3,8 +3,9 @@
 
 #include "ip4_addr.h"
 #include "err.h"
+#include <udp.h>
 
-err_t udp_create_socket(); ///< функция создания сокета
-err_t udp_send_msg(); ///< функция отправки сообщения
-
+struct udp_pcb* udp_create_socket(const ip4_addr_t ip_addr, const u16_t port, udp_recv_fn recv, void *recv_arg);  ///< функция создания сокета
+err_t udp_send_msg(struct udp_pcb *upcb, const char *data); ///< функция отправки сообщения
+extern void udp_receive_callback(void *arg, struct udp_pcb *pcb, struct pbuf *p, const ip_addr_t *addr, u16_t port);
 #endif
