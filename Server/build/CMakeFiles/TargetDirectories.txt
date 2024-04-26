@@ -1,0 +1,3 @@
+C:/Users/polyakov/Desktop/C++/Server/build/CMakeFiles/Server.dir
+C:/Users/polyakov/Desktop/C++/Server/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/polyakov/Desktop/C++/Server/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/Users/polyakov/Desktop/C++/Server/CMakeLists.txt
+  main.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+C:\Users\polyakov\Desktop\C++\Server\src\main.cpp(13,12): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Server.vcxproj -> C:\Users\polyakov\Desktop\C++\Server\build\bin\Server.exe

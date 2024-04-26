@@ -1,0 +1,10 @@
+^C:\USERS\POLYAKOV\DESKTOP\C++\SERVER\BUILD\CMAKEFILES\A6ADA9FD604D0FD2C2D2CAD7BF334A1B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/polyakov/Desktop/C++/Server -BC:/Users/polyakov/Desktop/C++/Server/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/polyakov/Desktop/C++/Server/build/Server.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
